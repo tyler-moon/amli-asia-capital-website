@@ -322,7 +322,7 @@ const heroReturnPoints = [
   ["03", "Optionality", "Potential conversion on qualifying parent IPO"]
 ];
 
-const contactEmail = "asiacapital@amli.group";
+const contactEmail = "capital.contact@amli.group";
 const informationRequestHref = "#im-request";
 const informationEmailHref = `mailto:${contactEmail}?subject=AMLI%20Asia%20Capital%20information%20request`;
 
