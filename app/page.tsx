@@ -1331,7 +1331,6 @@ export default function Home() {
               <a href="https://mountains.amli.group">AMLI Mountains</a>
               <a href="https://property.amli.group">AMLI Property</a>
               <a href="https://kredit.amli.group">AMLI Kredit</a>
-              <a href="https://capital.amli.group">AMLI Asia Capital</a>
               <a href="https://greens.amli.group">AMLI Greens</a>
             </div>
             <div>
