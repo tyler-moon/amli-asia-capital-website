@@ -4,13 +4,13 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://capital.amli.group"),
   applicationName: "AMLI Asia Capital",
-  title: "AMLI Asia Capital | Fund 2",
+  title: "AMLI Asia Capital",
   description:
-    "AMLI Asia Capital Fund 2 presents a concise review path for eligible investors to assess RPS participation, return drivers, reference themes and information requests.",
+    "AMLI Asia Capital is the investment and capital-markets arm of the AMLI group. Our new website is being prepared.",
   openGraph: {
-    title: "AMLI Asia Capital | Fund 2",
+    title: "AMLI Asia Capital",
     description:
-      "A concise Fund 2 review path for eligible investors to assess RPS participation, return drivers, reference themes and information requests.",
+      "The investment and capital-markets arm of the AMLI group. Our new website is being prepared.",
     images: [
       {
         url: "/images/kl-skyline-hero.jpg",
