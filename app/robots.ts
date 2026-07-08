@@ -8,6 +8,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/"
-    }
+    },
+    sitemap: "https://capital.amli.group/sitemap.xml"
   };
 }
