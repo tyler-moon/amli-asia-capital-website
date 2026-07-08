@@ -3208,7 +3208,7 @@ video.central-asia__background {
 .section.is-visible .section-heading .eyebrow { animation: amliRise 0.7s ease both; }
 .section.is-visible .section-heading > p:not(.eyebrow) { animation: amliRise 0.9s ease both 0.12s; }
 .hero__video { transition: opacity 0.9s ease; }
-.hero__video--b { z-index: 0; }
+.hero__video--b { z-index: -2; }
 @media (prefers-reduced-motion: reduce) {
   .section.is-visible .section-heading h2,
   .section.is-visible .section-heading .eyebrow,
