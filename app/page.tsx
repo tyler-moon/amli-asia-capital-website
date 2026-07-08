@@ -52,7 +52,7 @@ const projects = [
 
 const platform = [
   { name: "A real operating group", text: "AMLI Asia Capital is the capital-markets arm of AMLI Group — a diversified group operating across real estate, licensed finance and renewable energy, not a stand-alone vehicle." },
-  { name: "A prior programme", text: "Fund 1 (2024) was a Class A, credit-exposure-based offering issued by the same platform — Fund 2 extends that track record into a diversified reference framework." },
+  { name: "A prior programme", text: "Fund 1 (2024) was a Class A, credit-exposure-based offering issued by the same platform — the current programme extends that track record into a diversified reference framework." },
   { name: "A structured pathway", text: "The parent has completed procedural prerequisites for public-market activity (Berhad conversion and an intermediate holding company), underpinning the potential conversion optionality." }
 ];
 
@@ -103,7 +103,7 @@ export default function Page() {
       jurisdiction: get("jurisdiction"),
       email: get("email"),
       message: get("message"),
-      _subject: `Fund 2 information request — ${name || "AMLI Asia Capital"}`,
+      _subject: `Programme information request — ${name || "AMLI Asia Capital"}`,
       _template: "table",
       _captcha: "false"
     };
@@ -229,7 +229,7 @@ export default function Page() {
           </a>
           <div className="nav__links">
             <a href="#overview">Overview</a>
-            <a href="#programme">Fund 2</a>
+            <a href="#programme">Programme</a>
             <a href="#framework">Framework</a>
             <a href="#platform">Platform</a>
             <a href="#leadership">Leadership</a>
@@ -258,7 +258,7 @@ export default function Page() {
           <div className="hero__overlay" />
           <div className="hero__content">
             <div className="hero__copy hero__copy--animate">
-              <p className="eyebrow eyebrow--hero">AMLI Asia Capital · Fund 2 | 2026</p>
+              <p className="eyebrow eyebrow--hero">AMLI Asia Capital · 2026</p>
               <h1>
                 Structured yield.
                 <br /> Diversified upside.
@@ -273,7 +273,7 @@ export default function Page() {
                   Request information
                 </a>
                 <a className="button button--secondary button--on-dark" href="#programme">
-                  Explore Fund 2
+                  Explore the programme
                 </a>
               </div>
               <p className="hero__legal">
@@ -295,8 +295,8 @@ export default function Page() {
               <p className="eyebrow">The capital-markets arm</p>
               <h2>A disciplined route into the AMLI real economy.</h2>
               <p>
-                AMLI Asia Capital is the investment and capital-formation arm of AMLI Group. Fund 2
-                gives eligible participants a structured way to review a diversified
+                AMLI Asia Capital is the investment and capital-formation arm of AMLI Group. The
+                current programme gives eligible participants a structured way to review a diversified
                 pool of reference themes — property development, micro digital banking and local
                 finance — under one governed programme framework, with a defined horizon and a
                 clear documentation pathway.
@@ -315,7 +315,7 @@ export default function Page() {
               </p>
             </div>
             <figure className="media-frame" data-reveal>
-              <img src="/images/fund2-cover.jpg" alt="AMLI Asia Capital — Fund 2" loading="lazy" />
+              <img src="/images/capital-cover.jpg" alt="AMLI Asia Capital — programme overview" loading="lazy" />
             </figure>
           </div>
         </section>
@@ -325,14 +325,14 @@ export default function Page() {
           <div className="section__inner">
             <div className="section-heading section-heading--wide">
               <p className="eyebrow">Programme Snapshot</p>
-              <h2>Fund 2, framed on one screen.</h2>
+              <h2>The programme, framed on one screen.</h2>
               <p>
                 A clear framework for evaluating the programme — instrument, horizon, reference
                 themes and the review pathway — before any materials are shared.
               </p>
             </div>
 
-            <dl className="fund-facts" aria-label="Fund 2 programme facts">
+            <dl className="fund-facts" aria-label="Programme facts">
               {fundFacts.map(([term, def]) => (
                 <div className="fund-facts__row" key={term} data-reveal>
                   <dt>{term}</dt>
@@ -476,10 +476,10 @@ export default function Page() {
         <section className="section" id="platform" data-reveal>
           <div className="section__inner">
             <div className="section-heading section-heading--wide">
-              <p className="eyebrow">The platform behind Fund 2</p>
+              <p className="eyebrow">The platform behind the programme</p>
               <h2>An operating group, not a vehicle.</h2>
               <p>
-                Fund 2 sits on top of a real, diversified group with an operating history — the
+                The programme sits on top of a real, diversified group with an operating history — the
                 foundation for its governance, cash-generation themes and listing pathway.
               </p>
             </div>
@@ -513,7 +513,7 @@ export default function Page() {
                 Redeemable Preference Share issue of up to RM 100 million, subscribed through
                 bank-channelled placements and deployed into AMLI Kredit’s licensed lending business
                 under the Moneylenders Act 1951. It established the platform’s ability to raise
-                capital and put it to work — the precedent Fund 2 builds on.
+                capital and put it to work — the precedent the current programme builds on.
               </p>
             </div>
             <ul className="chips" aria-label="Fund 1 highlights">
@@ -539,7 +539,7 @@ export default function Page() {
               <p className="eyebrow">Leadership</p>
               <h2>Governance-led capital formation.</h2>
               <p>
-                Fund 2 is overseen by senior executives focused on disciplined execution, fund
+                The programme is overseen by senior executives focused on disciplined execution, fund
                 governance and long-term stewardship across the AMLI platform.
               </p>
             </div>
@@ -586,7 +586,7 @@ export default function Page() {
           <div className="final-cta__inner">
             <div>
               <p className="eyebrow eyebrow--light">AMLI Asia Capital</p>
-              <h2>Review Fund 2 with our team.</h2>
+              <h2>Review the programme with our team.</h2>
             </div>
             <div className="button-row">
               <a className="button button--primary" href="#contact">
@@ -687,7 +687,7 @@ export default function Page() {
               <a href="https://amli.group">AMLI Group</a>
             </div>
             <div>
-              <h3>Fund 2</h3>
+              <h3>Programme</h3>
               <a href="#overview">Overview</a>
               <a href="#programme">Programme</a>
               <a href="#platform">Platform</a>
