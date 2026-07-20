@@ -1763,8 +1763,13 @@ section[id] {
 }
 
 .footer__legal {
-  max-width: 920px;
+  width: min(1180px, calc(100% - 56px));
+  margin: 0 auto;
   font-size: 13px;
+}
+
+.footer__legal p {
+  max-width: 920px;
 }
 
 .cookie {
@@ -1994,7 +1999,8 @@ section[id] {
   .hero__content,
   .section__inner,
   .final-cta__inner,
-  .footer__inner {
+  .footer__inner,
+  .footer__legal {
     width: min(100% - 36px, 1180px);
   }
 
@@ -3169,7 +3175,7 @@ video.central-asia__background {
 
 /* Footer fine-print disclaimer (small, muted) */
 .footer__disclaimer {
-  max-width: 100%;
+  width: min(1180px, calc(100% - 56px));
   margin: 0 auto;
   padding: 1.6rem 0 0;
   font-size: 0.68rem;
