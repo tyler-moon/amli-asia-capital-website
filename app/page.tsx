@@ -684,6 +684,7 @@ export default function Page() {
               <a href="https://property.amli.group">AMLI Property</a>
               <a href="https://kredit.amli.group">AMLI Kredit</a>
               <a href="https://greens.amli.group">AMLI Greens</a>
+              <a href="https://pharma.amli.group">AMLI Pharma</a>
               <a href="https://amli.group">AMLI Group</a>
             </div>
             <div>
