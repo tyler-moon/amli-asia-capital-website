@@ -2944,6 +2944,27 @@ video.central-asia__background {
   margin-bottom: 0.7rem;
 }
 .platform-card p { color: var(--slate); font-size: 0.98rem; line-height: 1.6; }
+.parent-recognition {
+  margin-top: 2.5rem;
+  padding: 1.5rem 0 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.parent-recognition > p:not(.eyebrow) {
+  max-width: 72ch;
+  margin-bottom: 0.75rem;
+  color: var(--slate);
+}
+
+.parent-recognition strong {
+  color: var(--burgundy);
+}
+
+.parent-recognition .text-link:focus-visible {
+  outline: 2px solid var(--burgundy);
+  outline-offset: 5px;
+}
+
 .platform-note {
   margin-top: 2.5rem;
   padding-top: 1.5rem;

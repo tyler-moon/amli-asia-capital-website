@@ -491,6 +491,22 @@ export default function Page() {
                 </article>
               ))}
             </div>
+            <aside className="parent-recognition" aria-label="Parent company recognition" data-reveal>
+              <p className="eyebrow">Parent company recognition · 2026</p>
+              <p>
+                Our parent, <strong>AMLI Mountains (M) Berhad</strong>, received the
+                Honesty Brand award at the 22nd Asia Pacific International Honesty
+                Book of Records.
+              </p>
+              <a
+                className="text-link"
+                href="https://honestyaward.asia/en/winners/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View official award listing
+              </a>
+            </aside>
             <p className="platform-note">
               Explore the wider group at{" "}
               <a className="text-link" href="https://amli.group">amli.group</a> — real estate
