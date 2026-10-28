@@ -2945,12 +2945,33 @@ video.central-asia__background {
 }
 .platform-card p { color: var(--slate); font-size: 0.98rem; line-height: 1.6; }
 .parent-recognition {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  align-items: center;
+  gap: 40px;
   margin-top: 2.5rem;
-  padding: 1.5rem 0 0;
+  padding: 1.5rem 0;
   border-top: 1px solid var(--hairline);
+  scroll-margin-top: calc(var(--header-height) + 32px);
 }
 
-.parent-recognition > p:not(.eyebrow) {
+.parent-recognition__media {
+  width: 200px;
+  margin: 0;
+}
+
+.parent-recognition__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+}
+
+.parent-recognition__copy {
+  min-width: 0;
+}
+
+.parent-recognition__copy > p:not(.eyebrow) {
   max-width: 72ch;
   margin-bottom: 0.75rem;
   color: var(--slate);
@@ -2963,6 +2984,18 @@ video.central-asia__background {
 .parent-recognition .text-link:focus-visible {
   outline: 2px solid var(--burgundy);
   outline-offset: 5px;
+}
+
+@media (max-width: 560px) {
+  .parent-recognition {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .parent-recognition__media {
+    grid-row: 2;
+    justify-self: center;
+  }
 }
 
 .platform-note {

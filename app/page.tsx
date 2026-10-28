@@ -491,21 +491,32 @@ export default function Page() {
                 </article>
               ))}
             </div>
-            <aside className="parent-recognition" aria-label="Parent company recognition" data-reveal>
-              <p className="eyebrow">Parent company recognition · 2026</p>
-              <p>
-                Our parent, <strong>AMLI Mountains (M) Berhad</strong>, received the
-                Honesty Brand award at the 22nd Asia Pacific International Honesty
-                Book of Records.
-              </p>
-              <a
-                className="text-link"
-                href="https://honestyaward.asia/en/winners/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View official award listing
-              </a>
+            <aside className="parent-recognition" id="parent-recognition" aria-label="Parent company recognition" data-reveal>
+              <figure className="parent-recognition__media">
+                <img
+                  src="/images/honesty-brand-award-white.webp"
+                  alt="Honesty Brand trophy awarded to AMLI Mountains (M) Berhad, on a white background."
+                  width="720"
+                  height="1080"
+                  loading="lazy"
+                />
+              </figure>
+              <div className="parent-recognition__copy">
+                <p className="eyebrow">Parent company recognition · 2026</p>
+                <p>
+                  Our parent, <strong>AMLI Mountains (M) Berhad</strong>, received the
+                  Honesty Brand award at the 22nd Asia Pacific International Honesty
+                  Book of Records.
+                </p>
+                <a
+                  className="text-link"
+                  href="https://honestyaward.asia/en/winners/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View official award listing
+                </a>
+              </div>
             </aside>
             <p className="platform-note">
               Explore the wider group at{" "}
